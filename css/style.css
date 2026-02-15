@@ -178,7 +178,7 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: var(--space-lg);
-  padding: 10px 24px;
+  padding: 16px 28px;
 }
 
 /* Logo */
@@ -437,7 +437,7 @@ p {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 100px;
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--color-border);
