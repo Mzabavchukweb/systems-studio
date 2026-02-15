@@ -321,6 +321,35 @@ p {
   visibility: visible;
 }
 
+.mobile-overlay__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.3s ease, opacity 0.4s ease 0.1s;
+  opacity: 0;
+  z-index: 10;
+}
+
+.mobile-overlay.open .mobile-overlay__close {
+  opacity: 1;
+}
+
+.mobile-overlay__close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(90deg);
+}
+
 .mobile-overlay__links {
   flex: 1;
   display: flex;

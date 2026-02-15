@@ -27,6 +27,8 @@
   const mobileOverlay = document.getElementById('mobileOverlay');
 
   if (navToggle && mobileOverlay) {
+    const overlayClose = document.getElementById('mobileOverlayClose');
+
     function closeMenu() {
       mobileOverlay.classList.remove('open');
       navToggle.classList.remove('open');
@@ -43,6 +45,11 @@
         closeMenu();
       }
     });
+
+    // Close button inside overlay
+    if (overlayClose) {
+      overlayClose.addEventListener('click', closeMenu);
+    }
 
     // Close mobile menu on link click
     mobileOverlay.querySelectorAll('a').forEach(link => {
