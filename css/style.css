@@ -133,7 +133,7 @@ p {
 }
 
 .section {
-  padding: var(--space-3xl) 0;
+  padding: 100px 0;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -1247,7 +1247,7 @@ p {
   }
 
   section {
-    padding: var(--space-3xl) 0;
+    padding: 60px 0;
   }
 
   /* ---- Grids → single column ---- */
