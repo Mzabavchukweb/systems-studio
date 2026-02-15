@@ -1306,17 +1306,17 @@ p {
   }
 
   .navbar__inner {
-    padding: 14px 20px;
+    padding: 18px 20px;
   }
 
   .navbar__logo {
-    font-size: 0.95rem;
-    gap: 8px;
+    font-size: 1.1rem;
+    gap: 10px;
   }
 
   .navbar__logo-img {
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
   }
 
   .navbar__links {
@@ -1325,6 +1325,10 @@ p {
 
   .navbar__toggle {
     display: flex;
+  }
+
+  .navbar__toggle span {
+    width: 28px;
   }
 
   .navbar__toggle.open span:nth-child(1) {
