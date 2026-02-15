@@ -24,27 +24,19 @@
 
   // --- Mobile Menu Toggle ---
   const navToggle = document.getElementById('navToggle');
-  const navLinks = document.getElementById('navLinks');
+  const mobileOverlay = document.getElementById('mobileOverlay');
 
-  if (navToggle && navLinks) {
-    const navInner = navLinks.parentElement;
-
+  if (navToggle && mobileOverlay) {
     function closeMenu() {
-      navLinks.classList.remove('open');
+      mobileOverlay.classList.remove('open');
       navToggle.classList.remove('open');
       document.body.style.overflow = '';
-      // Move back into navbar
-      if (navLinks.parentElement === document.body) {
-        navInner.insertBefore(navLinks, navToggle);
-      }
     }
 
     navToggle.addEventListener('click', () => {
-      const isOpen = navLinks.classList.contains('open');
+      const isOpen = mobileOverlay.classList.contains('open');
       if (!isOpen) {
-        // Move to body so position:fixed works relative to viewport
-        document.body.appendChild(navLinks);
-        navLinks.classList.add('open');
+        mobileOverlay.classList.add('open');
         navToggle.classList.add('open');
         document.body.style.overflow = 'hidden';
       } else {
@@ -53,12 +45,12 @@
     });
 
     // Close mobile menu on link click
-    navLinks.querySelectorAll('a').forEach(link => {
+    mobileOverlay.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', closeMenu);
     });
 
     // Close mobile menu on language switch
-    navLinks.querySelectorAll('.lang-switch button').forEach(btn => {
+    mobileOverlay.querySelectorAll('.lang-switch button').forEach(btn => {
       btn.addEventListener('click', closeMenu);
     });
   }
