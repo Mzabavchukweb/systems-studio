@@ -27,19 +27,39 @@
   const navLinks = document.getElementById('navLinks');
 
   if (navToggle && navLinks) {
+    const navInner = navLinks.parentElement;
+
+    function closeMenu() {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      document.body.style.overflow = '';
+      // Move back into navbar
+      if (navLinks.parentElement === document.body) {
+        navInner.insertBefore(navLinks, navToggle);
+      }
+    }
+
     navToggle.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-      navToggle.classList.toggle('open');
-      document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
+      const isOpen = navLinks.classList.contains('open');
+      if (!isOpen) {
+        // Move to body so position:fixed works relative to viewport
+        document.body.appendChild(navLinks);
+        navLinks.classList.add('open');
+        navToggle.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      } else {
+        closeMenu();
+      }
     });
 
     // Close mobile menu on link click
     navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        navToggle.classList.remove('open');
-        document.body.style.overflow = '';
-      });
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Close mobile menu on language switch
+    navLinks.querySelectorAll('.lang-switch button').forEach(btn => {
+      btn.addEventListener('click', closeMenu);
     });
   }
 
