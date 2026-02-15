@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Systems Studio — Standards that work under pressure</title>
+  <meta name="description"
+    content="Gotowe pakiety operacyjne dla firm i domów. Wdrożenie w 60 minut. SOP, checklisty, QuickStart — dowód pracy i odpowiedzialność.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🐇</text></svg>">
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo">
+        <img src="img/logo.png" alt="Systems Studio" class="navbar__logo-img">
+        Systems Studio
+      </a>
+
+      <div class="navbar__links" id="navLinks">
+        <a href="#b2b-packs" data-i18n="nav.packs">B2B Packs</a>
+        <a href="#system-spokoju" data-i18n="nav.spokoju">System Spokoju</a>
+        <a href="#partnerstwo" data-i18n="nav.partner">Partnerstwo</a>
+        <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+        <div class="lang-switch">
+          <button class="active" data-lang="pl">PL</button>
+          <button data-lang="en">EN</button>
+          <button data-lang="nl">NL</button>
+        </div>
+      </div>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero__content fade-in">
+        <h1 class="hero__h1" data-i18n="hero.h1">Standards that work under pressure.</h1>
+        <p class="hero__h2" data-i18n="hero.h2">Systems Studio — standardy, które kończą chaos.</p>
+        <p class="hero__lead" data-i18n="hero.lead">Gotowe pakiety operacyjne dla firm i domów.<br><strong>Wdrożenie:
+            <span class="hero__counter" data-target="60">0</span>
+            minut.</strong></p>
+        <div class="hero__actions">
+          <a href="#b2b-packs" class="btn btn--primary" data-i18n="hero.cta_b2b">Kup B2B Pack</a>
+          <a href="#system-spokoju" class="btn btn--secondary" data-i18n="hero.cta_b2c">Zobacz System Spokoju</a>
+        </div>
+        <p class="hero__subline">
+          <span class="text-mute">Digital delivery</span>
+          <span class="text-mute">•</span>
+          <span class="text-mute">PL/EN</span>
+          <span class="text-mute">•</span>
+          <span class="text-mute" data-i18n="hero.subline">Licencja osobowa / Licencja firmowa (1 firma / 1
+            lokalizacja)</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label" data-i18n="about.label">O nas</p>
+      <h2 class="section-title" data-i18n="about.title">Czym jest Systems Studio?</h2>
+      <hr class="section-divider">
+
+      <div class="about__text fade-in">
+        <p data-i18n="about.text">Tworzymy gotowe standardy operacyjne w formie pakietów digital (SOP, checklisty,
+          QuickStart). Wdrażasz w 60 minut i używasz codziennie. To nie są ładne PDF-y — to narzędzia odpowiedzialności.
+        </p>
+      </div>
+
+      <div class="about__tiles fade-in">
+        <div class="tile">
+          <p class="tile__label" data-i18n="about.tile1_label">Dla firm</p>
+          <p class="tile__text" data-i18n="about.tile1_text">Dowód pracy. Mniej sporów. Więcej kontroli.</p>
+        </div>
+        <div class="tile">
+          <p class="tile__label" data-i18n="about.tile2_label">Dla ludzi</p>
+          <p class="tile__text" data-i18n="about.tile2_text">Spokój. Jasne zasady. Mniej chaosu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CORE TRUTH ===================== -->
+  <section class="core-truth section--tight" id="core-truth">
+    <div class="container">
+      <p class="core-truth__text fade-in" data-i18n="core.text">Wdrażasz prosty standard w <em>60 minut</em> — a od
+        jutra masz porządek, dowód i odpowiedzialność.</p>
+    </div>
+  </section>
+
+  <!-- ===================== EVIDENCE-FIRST ===================== -->
+  <section class="section" id="evidence">
+    <div class="container">
+      <p class="section-label">Standard</p>
+      <h2 class="section-title" data-i18n="evidence.title">Evidence-first</h2>
+      <hr class="section-divider">
+      <p class="evidence__subtitle" data-i18n="evidence.subtitle">Standard ma działać — nie tylko ładnie wyglądać.</p>
+
+      <div class="evidence__grid fade-in">
+        <div class="evidence__item">
+          <span class="evidence__icon"><svg viewBox="0 0 24 24">
+              <rect x="3" y="5" width="18" height="14" rx="1" />
+              <path d="M3 9l4-2 4 5 3-3 7 5" />
+              <circle cx="15" cy="11" r="1.5" />
+            </svg></span>
+          <p class="evidence__label" data-i18n="evidence.item1">Before / During / After</p>
+        </div>
+        <div class="evidence__item">
+          <span class="evidence__icon"><svg viewBox="0 0 24 24">
+              <rect x="3" y="3" width="18" height="18" rx="1" />
+              <path d="M8 12l3 3 5-6" />
+            </svg></span>
+          <p class="evidence__label" data-i18n="evidence.item2">Acceptance (TAK/NIE)</p>
+        </div>
+        <div class="evidence__item">
+          <span class="evidence__icon"><svg viewBox="0 0 24 24">
+              <path d="M12 3L2 21h20L12 3z" />
+              <line x1="12" y1="10" x2="12" y2="14" />
+              <circle cx="12" cy="17" r="0.5" fill="currentColor" />
+            </svg></span>
+          <p class="evidence__label" data-i18n="evidence.item3">Exceptions / Incidents</p>
+        </div>
+        <div class="evidence__item">
+          <span class="evidence__icon"><svg viewBox="0 0 24 24">
+              <rect x="5" y="2" width="14" height="20" rx="1" />
+              <line x1="9" y1="7" x2="15" y2="7" />
+              <line x1="9" y1="11" x2="15" y2="11" />
+              <line x1="9" y1="15" x2="13" y2="15" />
+            </svg></span>
+          <p class="evidence__label" data-i18n="evidence.item4">Minimalny audit trail</p>
+        </div>
+      </div>
+
+      <p class="evidence__closing fade-in" data-i18n="evidence.closing">To nie są szablony. To jest standard pracy +
+        dowód + odpowiedzialność.</p>
+    </div>
+  </section>
+
+  <!-- ===================== B2B ===================== -->
+  <section class="section" id="b2b">
+    <div class="container">
+      <p class="section-label">B2B</p>
+      <h2 class="section-title" data-i18n="b2b.title">Dla firm (B2B) — Operational Integrity Standard™</h2>
+      <hr class="section-divider">
+      <p class="b2b__lead" data-i18n="b2b.lead">Mniej sporów. Mniej chaosu. Więcej kontroli.</p>
+
+      <div class="b2b__effects fade-in">
+        <div class="effect-card">
+          <p class="effect-card__title" data-i18n="b2b.effect1_title">Dowód pracy i odbiór (TAK/NIE)</p>
+          <p class="effect-card__result" data-i18n="b2b.effect1_result">Koniec „ale".</p>
+        </div>
+        <div class="effect-card">
+          <p class="effect-card__title" data-i18n="b2b.effect2_title">Raport zmiany</p>
+          <p class="effect-card__result" data-i18n="b2b.effect2_result">Koniec „nikt nie wie co się działo".</p>
+        </div>
+        <div class="effect-card">
+          <p class="effect-card__title" data-i18n="b2b.effect3_title">Kontrola kluczy / sprzętu / wejść</p>
+          <p class="effect-card__result" data-i18n="b2b.effect3_result">Koniec strat i wymówek.</p>
+        </div>
+      </div>
+
+      <div class="b2b__audience fade-in">
+        <p class="b2b__audience-label" data-i18n="b2b.audience_label">Dla kogo?</p>
+        <span class="tag" data-i18n="b2b.tag1">Cleaning / Facility</span>
+        <span class="tag" data-i18n="b2b.tag2">Magazyny / Logistyka</span>
+        <span class="tag" data-i18n="b2b.tag3">Produkcja / Zmiany</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== B2B DIGITAL PACKS ===================== -->
+  <section class="section" id="b2b-packs">
+    <div class="container">
+      <p class="section-label" data-i18n="packs.label">Produkty</p>
+      <h2 class="section-title" data-i18n="packs.title">B2B Digital Packs <span class="text-dim"
+          style="font-size:0.65em;font-weight:400" data-i18n="packs.title_sub">(wdrożenie 60 min)</span></h2>
+      <hr class="section-divider">
+      <p class="packs__subline" data-i18n="packs.subline">Kupujesz → pobierasz ZIP → wdrażasz → używasz daily.</p>
+
+      <div class="packs__grid fade-in">
+
+        <!-- Pack 1 -->
+        <div class="pack-card">
+          <p class="pack-card__name">Proof-of-Work Photo Pack™</p>
+          <p class="pack-card__price">49€</p>
+          <p class="pack-card__desc" data-i18n="packs.p1_desc">Dowód pracy: Before / During / After + Exceptions +
+            Acceptance (TAK/NIE)</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+
+        <!-- Pack 2 -->
+        <div class="pack-card">
+          <p class="pack-card__name">Daily Shift Report™</p>
+          <p class="pack-card__price">49€</p>
+          <p class="pack-card__desc" data-i18n="packs.p2_desc">Raport zmiany: status, wyjątki, ryzyka, przekazanie
+            odpowiedzialności</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+
+        <!-- Pack 3 -->
+        <div class="pack-card">
+          <p class="pack-card__name">Keys & Access Control™</p>
+          <p class="pack-card__price">49€</p>
+          <p class="pack-card__desc" data-i18n="packs.p3_desc">Wydanie/zwrot kluczy, odpowiedzialność, incydenty,
+            spot-check</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+
+        <!-- Pack 4 -->
+        <div class="pack-card">
+          <p class="pack-card__name">Tool & Asset Tracking™</p>
+          <p class="pack-card__price">49€</p>
+          <p class="pack-card__desc" data-i18n="packs.p4_desc">Check-out/check-in, braki, serwis, accountability</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+
+        <!-- Pack 5 -->
+        <div class="pack-card">
+          <p class="pack-card__name">Visitor & Contractor Log Lite™</p>
+          <p class="pack-card__price">49€</p>
+          <p class="pack-card__desc" data-i18n="packs.p5_desc">Wejścia/wyjścia, strefy, potwierdzenia, minimalny audit
+            trail</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="packs__note fade-in" data-i18n="packs.note">W każdym packu: One-Pager + SOP + Templates + QuickStart +
+        License.</p>
+
+      <!-- Mini-case -->
+      <div class="mini-case fade-in">
+        <h3 data-i18n="packs.case_title">Typowe wdrożenie</h3>
+        <p data-i18n="packs.case_text">W firmie sprzątającej <strong>Proof-of-Work + Shift Report</strong> = koniec
+          sporów o „czy było zrobione". Jest dowód. Jest odbiór. Jest odpowiedzialność.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OPCJE DODATKOWE ===================== -->
+  <section class="section--tight" id="opcje">
+    <div class="container">
+      <h2 class="section-title" data-i18n="addons.title">Opcje dodatkowe <span class="text-dim"
+          style="font-size:0.6em;font-weight:400" data-i18n="addons.title_sub">(opcjonalnie)</span></h2>
+      <hr class="section-divider">
+
+      <div class="addons__list fade-in">
+        <div class="addon-item">
+          <span class="addon-item__icon"><svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg></span>
+          <span data-i18n="addons.item1">Zdalna konfiguracja pod 1 firmę / 1 lokalizację</span>
+        </div>
+        <div class="addon-item">
+          <span class="addon-item__icon"><svg viewBox="0 0 24 24">
+              <rect x="2" y="6" width="20" height="12" rx="1" />
+              <line x1="6" y1="18" x2="6" y2="22" />
+              <line x1="18" y1="18" x2="18" y2="22" />
+              <rect x="7" y="10" width="10" height="3" rx="0.5" />
+            </svg></span>
+          <span data-i18n="addons.item2">Wersja papier / USB</span>
+        </div>
+        <div class="addon-item">
+          <span class="addon-item__icon"><svg viewBox="0 0 24 24">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z" />
+              <circle cx="7" cy="7" r="1" fill="currentColor" />
+            </svg></span>
+          <span data-i18n="addons.item3">Etykiety / tagi</span>
+        </div>
+      </div>
+
+      <a href="#kontakt" class="btn btn--secondary" data-i18n="addons.cta">Kontakt — konfiguracja</a>
+    </div>
+  </section>
+
+  <!-- ===================== PARTNERSTWO ===================== -->
+  <section class="section" id="partnerstwo">
+    <div class="container">
+      <p class="section-label">B2B</p>
+      <h2 class="section-title" data-i18n="partner.title">Partnerstwo (B2B)</h2>
+      <hr class="section-divider">
+
+      <div class="fade-in">
+        <p class="partnership__text" data-i18n="partner.text">Jeśli obsługujesz firmy (BHP, compliance, facility,
+          szkolenia) — możesz polecać nasze packi.</p>
+        <p class="partnership__model" data-i18n="partner.model">Kod partnera + prowizja lub pakiet licencji.</p>
+        <a href="#kontakt" class="btn btn--primary" data-i18n="partner.cta">Zostań partnerem</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SYSTEM SPOKOJU ===================== -->
+  <section class="section" id="system-spokoju" style="border-top: 1px solid var(--color-border);">
+    <div class="container">
+      <p class="section-label">B2C</p>
+      <h2 class="section-title" data-i18n="spokoju.title">System Spokoju™</h2>
+      <hr class="section-divider">
+
+      <div class="spokoju__features fade-in">
+        <div class="spokoju__feature">
+          <span class="spokoju__feature-dot"></span>
+          <span data-i18n="spokoju.feat1">Domowy standard offline.</span>
+        </div>
+        <div class="spokoju__feature">
+          <span class="spokoju__feature-dot"></span>
+          <span data-i18n="spokoju.feat2">10 minut startu.</span>
+        </div>
+        <div class="spokoju__feature">
+          <span class="spokoju__feature-dot"></span>
+          <span data-i18n="spokoju.feat3">Spokój na 72h–7 dni.</span>
+        </div>
+      </div>
+
+      <div class="spokoju__products fade-in">
+        <!-- Home -->
+        <div class="pack-card">
+          <p class="pack-card__name">Home</p>
+          <p class="pack-card__price">19€</p>
+          <p class="pack-card__desc" data-i18n="spokoju.home_desc">Procedury, checklisty, „co robić teraz".</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+        <!-- Home + Pets -->
+        <div class="pack-card">
+          <p class="pack-card__name">Home + Pets</p>
+          <p class="pack-card__price">24€</p>
+          <p class="pack-card__desc" data-i18n="spokoju.pets_desc">Opieka nad zwierzętami + checklista.</p>
+          <div class="pack-card__actions">
+            <a href="#" class="btn btn--primary btn--small" data-i18n="packs.buy">Kup</a>
+            <a href="#" class="pack-card__preview">Preview PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER / KONTAKT ===================== -->
+  <footer class="footer" id="kontakt">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <p class="footer__brand">Systems Studio</p>
+          <div class="footer__info">
+            <p>Email: <a href="mailto:office@systemsstudio.com">office@systemsstudio.com</a></p>
+            <p data-i18n="footer.delivery">Digital delivery: instant download (no physical shipment)</p>
+            <p data-i18n="footer.breach">Unauthorized sharing = license breach.</p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <a href="legal.html#terms">Terms</a>
+          <a href="legal.html#license">License</a>
+          <a href="legal.html#privacy">Privacy</a>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Systems Studio</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

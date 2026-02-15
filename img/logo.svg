@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none">
+  <!-- Outer border -->
+  <rect x="2" y="2" width="196" height="116" rx="2" stroke="currentColor" stroke-width="5" fill="none"/>
+  <!-- Inner border -->
+  <rect x="8" y="8" width="184" height="104" rx="1" stroke="currentColor" stroke-width="2.5" fill="none"/>
+
+  <!-- Letter S (first) -->
+  <path d="
+    M28 30 h38 v12 h-24 v14 h24 v14 h-24 v14 h24 v12 h-38 v-26 h24 v-14 h-24 z
+  " fill="currentColor"/>
+
+  <!-- Letter S (second) -->
+  <path d="
+    M78 30 h38 v12 h-24 v14 h24 v14 h-24 v14 h24 v12 h-38 v-26 h24 v-14 h-24 z
+  " fill="currentColor"/>
+
+  <!-- Rabbit silhouette (right side, peeking out) -->
+  <g transform="translate(120, 18)" fill="currentColor">
+    <!-- Left ear -->
+    <path d="M28 0 C24 0, 20 4, 20 12 L20 30 C20 32, 22 34, 24 32 L30 24 C32 20, 32 4, 28 0 Z"/>
+    <!-- Right ear -->
+    <path d="M42 2 C38 0, 34 4, 34 12 L34 30 C34 32, 36 34, 38 32 L44 22 C46 18, 46 6, 42 2 Z"/>
+    <!-- Head -->
+    <ellipse cx="32" cy="42" rx="20" ry="18"/>
+    <!-- Eye -->
+    <circle cx="38" cy="38" r="4" fill="none" stroke="currentColor" stroke-width="0"/>
+    <circle cx="38" cy="38" r="4.5" fill="#0c0c0c" stroke="currentColor" stroke-width="2"/>
+    <circle cx="39.5" cy="36.5" r="1.5" fill="currentColor"/>
+    <!-- Nose -->
+    <ellipse cx="48" cy="46" rx="3" ry="2" fill="#0c0c0c"/>
+    <!-- Mouth line -->
+    <path d="M48 48 Q46 52, 42 52" stroke="#0c0c0c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M14 56 Q8 62, 10 76 Q12 86, 24 88 L44 88 Q56 86, 58 76 Q60 66, 52 58 Q46 52, 38 54 Q26 56, 14 56 Z"/>
+    <!-- Front leg -->
+    <path d="M20 82 L16 96 Q15 100, 20 100 L26 100 Q28 98, 26 94 L24 86"/>
+    <!-- Back leg -->
+    <path d="M44 80 L46 96 Q47 100, 42 100 L36 100 Q34 98, 36 94 L38 84"/>
+    <!-- Tail -->
+    <circle cx="8" cy="68" r="5"/>
+  </g>
+</svg>
