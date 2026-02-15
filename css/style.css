@@ -399,10 +399,10 @@ p {
 }
 
 .mobile-overlay__footer {
-  padding: 24px 32px;
+  padding: 32px 32px 48px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
   transform: translateY(10px);
   opacity: 0;
   transition: transform 0.4s ease 0.25s, opacity 0.4s ease 0.25s;
@@ -411,6 +411,23 @@ p {
 .mobile-overlay.open .mobile-overlay__footer {
   transform: translateY(0);
   opacity: 1;
+}
+
+.mobile-overlay__footer .lang-switch {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.mobile-overlay__footer .lang-switch button {
+  font-size: 0.9rem;
+  padding: 12px 24px;
+  border-right-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.mobile-overlay__footer .lang-switch button.active {
+  background: var(--color-accent);
+  color: var(--color-bg);
 }
 
 /* ============================================
