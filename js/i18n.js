@@ -1,5 +1,5 @@
 /* ============================================
-   Systems Studio — i18n (PL / EN / NL)
+   SS Systems Studio — i18n (PL / EN / NL)
    JSON-based language switcher
    ============================================ */
 
@@ -20,7 +20,7 @@
 
             // Hero
             'hero.h1': 'Standards that work under pressure.',
-            'hero.h2': 'Systems Studio — standardy, które kończą chaos.',
+            'hero.h2': 'SS Systems Studio — standardy, które kończą chaos.',
             'hero.lead': 'Gotowe pakiety operacyjne dla firm i domów.<br><strong>Wdrożenie: <span class="hero__counter" data-target="60">0</span> minut.</strong>',
             'hero.cta_b2b': 'Kup B2B Pack',
             'hero.cta_b2c': 'Zobacz System Spokoju',
@@ -28,7 +28,7 @@
 
             // About
             'about.label': 'O nas',
-            'about.title': 'Czym jest Systems Studio?',
+            'about.title': 'Czym jest SS Systems Studio?',
             'about.text': 'Tworzymy gotowe standardy operacyjne w formie pakietów digital (SOP, checklisty, QuickStart). Wdrażasz w 60 minut i używasz codziennie. To nie są ładne PDF-y — to narzędzia odpowiedzialności.',
             'about.tile1_label': 'Dla firm',
             'about.tile1_text': 'Dowód pracy. Mniej sporów. Więcej kontroli.',
@@ -137,7 +137,7 @@
 
             // Hero
             'hero.h1': 'Standards that work under pressure.',
-            'hero.h2': 'Systems Studio — standards that end the chaos.',
+            'hero.h2': 'SS Systems Studio — standards that end the chaos.',
             'hero.lead': 'Ready-to-use operational packs for businesses and homes.<br><strong>Deployment: <span class="hero__counter" data-target="60">0</span> minutes.</strong>',
             'hero.cta_b2b': 'Get B2B Pack',
             'hero.cta_b2c': 'See Peace of Mind System',
@@ -145,7 +145,7 @@
 
             // About
             'about.label': 'About',
-            'about.title': 'What is Systems Studio?',
+            'about.title': 'What is SS Systems Studio?',
             'about.text': 'We create ready-made operational standards as digital packs (SOPs, checklists, QuickStart). Deploy in 60 minutes and use them daily. These aren\'t pretty PDFs — they\'re accountability tools.',
             'about.tile1_label': 'For businesses',
             'about.tile1_text': 'Proof of work. Fewer disputes. More control.',
@@ -254,7 +254,7 @@
 
             // Hero
             'hero.h1': 'Standards that work under pressure.',
-            'hero.h2': 'Systems Studio — standaarden die chaos beëindigen.',
+            'hero.h2': 'SS Systems Studio — standaarden die chaos beëindigen.',
             'hero.lead': 'Kant-en-klare operationele pakketten voor bedrijven en huishoudens.<br><strong>Implementatie: <span class="hero__counter" data-target="60">0</span> minuten.</strong>',
             'hero.cta_b2b': 'Koop B2B Pack',
             'hero.cta_b2c': 'Bekijk Rust Systeem',
@@ -262,7 +262,7 @@
 
             // About
             'about.label': 'Over ons',
-            'about.title': 'Wat is Systems Studio?',
+            'about.title': 'Wat is SS Systems Studio?',
             'about.text': 'Wij maken kant-en-klare operationele standaarden als digitale pakketten (SOP\'s, checklists, QuickStart). Implementeer in 60 minuten en gebruik ze dagelijks. Dit zijn geen mooie PDF\'s — het zijn instrumenten voor verantwoording.',
             'about.tile1_label': 'Voor bedrijven',
             'about.tile1_text': 'Werkbewijs. Minder geschillen. Meer controle.',
