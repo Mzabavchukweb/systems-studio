@@ -8,6 +8,9 @@
 
     const translations = {
 
+        /* =========================================================
+           POLISH (PL) — Primary language
+           ========================================================= */
         pl: {
             // Nav
             'nav.packs': 'B2B Packs',
@@ -39,8 +42,8 @@
             'evidence.title': 'Evidence-first',
             'evidence.subtitle': 'Standard ma działać — nie tylko ładnie wyglądać.',
             'evidence.item1': 'Before / During / After',
-            'evidence.item2': 'Acceptance (TAK/NIE)',
-            'evidence.item3': 'Exceptions / Incidents',
+            'evidence.item2': 'Akceptacja (TAK/NIE)',
+            'evidence.item3': 'Wyjątki / Incydenty',
             'evidence.item4': 'Minimalny audit trail',
             'evidence.closing': 'To nie są szablony. To jest standard pracy + dowód + odpowiedzialność.',
 
@@ -64,12 +67,12 @@
             'packs.title_sub': '(wdrożenie 60 min)',
             'packs.subline': 'Kupujesz → pobierasz ZIP → wdrażasz → używasz daily.',
             'packs.buy': 'Kup',
-            'packs.p1_desc': 'Dowód pracy: Before / During / After + Exceptions + Acceptance (TAK/NIE)',
+            'packs.p1_desc': 'Dowód pracy: Before / During / After + Wyjątki + Akceptacja (TAK/NIE)',
             'packs.p2_desc': 'Raport zmiany: status, wyjątki, ryzyka, przekazanie odpowiedzialności',
             'packs.p3_desc': 'Wydanie/zwrot kluczy, odpowiedzialność, incydenty, spot-check',
-            'packs.p4_desc': 'Check-out/check-in, braki, serwis, accountability',
+            'packs.p4_desc': 'Check-out/check-in, braki, serwis, odpowiedzialność',
             'packs.p5_desc': 'Wejścia/wyjścia, strefy, potwierdzenia, minimalny audit trail',
-            'packs.note': 'W każdym packu: One-Pager + SOP + Templates + QuickStart + License.',
+            'packs.note': 'W każdym packu: One-Pager + SOP + Szablony + QuickStart + Licencja.',
             'packs.case_title': 'Typowe wdrożenie',
             'packs.case_text': 'W firmie sprzątającej <strong>Proof-of-Work + Shift Report</strong> = koniec sporów o „czy było zrobione". Jest dowód. Jest odbiór. Jest odpowiedzialność.',
 
@@ -77,7 +80,7 @@
             'addons.title': 'Opcje dodatkowe',
             'addons.title_sub': '(opcjonalnie)',
             'addons.item1': 'Zdalna konfiguracja pod 1 firmę / 1 lokalizację',
-            'addons.item2': 'Wersja papier / USB',
+            'addons.item2': 'Wersja papierowa / USB',
             'addons.item3': 'Etykiety / tagi',
             'addons.cta': 'Kontakt — konfiguracja',
 
@@ -96,8 +99,8 @@
             'spokoju.pets_desc': 'Opieka nad zwierzętami + checklista.',
 
             // Footer
-            'footer.delivery': 'Digital delivery: instant download (no physical shipment)',
-            'footer.breach': 'Unauthorized sharing = license breach.',
+            'footer.delivery': 'Dostawa cyfrowa: natychmiastowe pobranie (brak wysyłki fizycznej)',
+            'footer.breach': 'Nieautoryzowane udostępnianie = naruszenie licencji.',
 
             // Legal
             'legal.terms_text': 'Treść regulaminu zostanie dodana wkrótce. Prosimy o kontakt: office@systemsstudio.com',
@@ -105,6 +108,9 @@
             'legal.privacy_text': 'Treść polityki prywatności zostanie dodana wkrótce. Prosimy o kontakt: office@systemsstudio.com',
         },
 
+        /* =========================================================
+           ENGLISH (EN)
+           ========================================================= */
         en: {
             // Nav
             'nav.packs': 'B2B Packs',
@@ -123,7 +129,7 @@
             // About
             'about.label': 'About',
             'about.title': 'What is Systems Studio?',
-            'about.text': 'We create ready-made operational standards as digital packs (SOPs, checklists, QuickStart). You deploy in 60 minutes and use them daily. These aren\'t pretty PDFs — they\'re accountability tools.',
+            'about.text': 'We create ready-made operational standards as digital packs (SOPs, checklists, QuickStart). Deploy in 60 minutes and use them daily. These aren\'t pretty PDFs — they\'re accountability tools.',
             'about.tile1_label': 'For businesses',
             'about.tile1_text': 'Proof of work. Fewer disputes. More control.',
             'about.tile2_label': 'For people',
@@ -173,7 +179,7 @@
             // Add-ons
             'addons.title': 'Additional options',
             'addons.title_sub': '(optional)',
-            'addons.item1': 'Remote configuration for 1 company / 1 location',
+            'addons.item1': 'Remote setup for 1 company / 1 location',
             'addons.item2': 'Paper / USB version',
             'addons.item3': 'Labels / tags',
             'addons.cta': 'Contact — configuration',
@@ -202,6 +208,9 @@
             'legal.privacy_text': 'Privacy Policy content will be added soon. Please contact: office@systemsstudio.com',
         },
 
+        /* =========================================================
+           DUTCH (NL)
+           ========================================================= */
         nl: {
             // Nav
             'nav.packs': 'B2B Packs',
@@ -220,10 +229,10 @@
             // About
             'about.label': 'Over ons',
             'about.title': 'Wat is Systems Studio?',
-            'about.text': 'Wij maken kant-en-klare operationele standaarden als digitale pakketten (SOP\'s, checklists, QuickStart). Implementeer in 60 minuten en gebruik ze dagelijks. Dit zijn geen mooie PDF\'s — het zijn verantwoordingsinstrumenten.',
+            'about.text': 'Wij maken kant-en-klare operationele standaarden als digitale pakketten (SOP\'s, checklists, QuickStart). Implementeer in 60 minuten en gebruik ze dagelijks. Dit zijn geen mooie PDF\'s — het zijn instrumenten voor verantwoording.',
             'about.tile1_label': 'Voor bedrijven',
             'about.tile1_text': 'Werkbewijs. Minder geschillen. Meer controle.',
-            'about.tile2_label': 'Voor mensen',
+            'about.tile2_label': 'Voor particulieren',
             'about.tile2_text': 'Rust. Duidelijke regels. Minder chaos.',
 
             // Core Truth
@@ -231,7 +240,7 @@
 
             // Evidence
             'evidence.title': 'Evidence-first',
-            'evidence.subtitle': 'Een standaard moet werken — niet alleen er mooi uitzien.',
+            'evidence.subtitle': 'Een standaard moet werken — niet alleen mooi ogen.',
             'evidence.item1': 'Before / During / After',
             'evidence.item2': 'Acceptatie (JA/NEE)',
             'evidence.item3': 'Uitzonderingen / Incidenten',
@@ -242,42 +251,42 @@
             'b2b.title': 'Voor bedrijven (B2B) — Operational Integrity Standard™',
             'b2b.lead': 'Minder geschillen. Minder chaos. Meer controle.',
             'b2b.effect1_title': 'Werkbewijs en acceptatie (JA/NEE)',
-            'b2b.effect1_result': 'Einde van "maar...".',
+            'b2b.effect1_result': 'Einde van „maar...".',
             'b2b.effect2_title': 'Dienstrapport',
-            'b2b.effect2_result': 'Einde van "niemand weet wat er gebeurd is".',
+            'b2b.effect2_result': 'Einde van „niemand weet wat er is gebeurd".',
             'b2b.effect3_title': 'Sleutel- / materiaal- / toegangscontrole',
             'b2b.effect3_result': 'Geen verliezen en excuses meer.',
             'b2b.audience_label': 'Voor wie?',
-            'b2b.tag1': 'Cleaning / Facility',
+            'b2b.tag1': 'Schoonmaak / Facility',
             'b2b.tag2': 'Magazijnen / Logistiek',
-            'b2b.tag3': 'Productie / Ploegen',
+            'b2b.tag3': 'Productie / Ploegendienst',
 
             // Packs
             'packs.label': 'Producten',
             'packs.title': 'B2B Digital Packs',
-            'packs.title_sub': '(60 min implementatie)',
+            'packs.title_sub': '(implementatie in 60 min)',
             'packs.subline': 'Koop → download ZIP → implementeer → gebruik dagelijks.',
             'packs.buy': 'Koop',
             'packs.p1_desc': 'Werkbewijs: Before / During / After + Uitzonderingen + Acceptatie (JA/NEE)',
-            'packs.p2_desc': 'Dienstrapport: status, uitzonderingen, risico\'s, verantwoordingsoverdracht',
-            'packs.p3_desc': 'Sleuteluitgifte/-retour, verantwoordelijkheid, incidenten, spot-check',
+            'packs.p2_desc': 'Dienstrapport: status, uitzonderingen, risico\'s, overdracht van verantwoordelijkheid',
+            'packs.p3_desc': 'Sleuteluitgifte/-retour, verantwoordelijkheid, incidenten, steekproef',
             'packs.p4_desc': 'Check-out/check-in, tekorten, onderhoud, verantwoordelijkheid',
             'packs.p5_desc': 'In-/uitgang, zones, bevestigingen, minimale audit trail',
-            'packs.note': 'Elk pakket bevat: One-Pager + SOP + Templates + QuickStart + Licentie.',
+            'packs.note': 'Elk pakket bevat: One-Pager + SOP + Sjablonen + QuickStart + Licentie.',
             'packs.case_title': 'Typische implementatie',
-            'packs.case_text': 'In een schoonmaakbedrijf, <strong>Proof-of-Work + Shift Report</strong> = einde van geschillen over "is het gedaan?". Er is bewijs. Er is acceptatie. Er is verantwoordelijkheid.',
+            'packs.case_text': 'In een schoonmaakbedrijf: <strong>Proof-of-Work + Shift Report</strong> = einde van geschillen over „is het gedaan?". Er is bewijs. Er is acceptatie. Er is verantwoordelijkheid.',
 
             // Add-ons
             'addons.title': 'Extra opties',
             'addons.title_sub': '(optioneel)',
             'addons.item1': 'Configuratie op afstand voor 1 bedrijf / 1 locatie',
-            'addons.item2': 'Papier- / USB-versie',
-            'addons.item3': 'Labels / tags',
+            'addons.item2': 'Papieren / USB-versie',
+            'addons.item3': 'Etiketten / labels',
             'addons.cta': 'Contact — configuratie',
 
             // Partnership
             'partner.title': 'Partnerschap (B2B)',
-            'partner.text': 'Als u bedrijven bedient (HSE, compliance, facility, training) — kunt u onze pakketten aanbevelen.',
+            'partner.text': 'Bedient u bedrijven (HSE, compliance, facilitair, training)? Dan kunt u onze pakketten aanbevelen.',
             'partner.model': 'Partnercode + commissie of licentiepakket.',
             'partner.cta': 'Word partner',
 
@@ -285,16 +294,16 @@
             'spokoju.title': 'Rust Systeem™',
             'spokoju.feat1': 'Offline thuisstandaard.',
             'spokoju.feat2': '10 minuten om te starten.',
-            'spokoju.feat3': 'Rust voor 72u–7 dagen.',
-            'spokoju.home_desc': 'Procedures, checklists, "wat nu te doen".',
+            'spokoju.feat3': 'Rust voor 72 uur tot 7 dagen.',
+            'spokoju.home_desc': 'Procedures, checklists, „wat nu te doen".',
             'spokoju.pets_desc': 'Dierenverzorging + checklist.',
 
             // Footer
             'footer.delivery': 'Digitale levering: directe download (geen fysieke verzending)',
-            'footer.breach': 'Ongeautoriseerd delen = licentiebreuk.',
+            'footer.breach': 'Ongeautoriseerd delen = schending van de licentie.',
 
             // Legal
-            'legal.terms_text': 'De servicevoorwaarden worden binnenkort toegevoegd. Neem contact op: office@systemsstudio.com',
+            'legal.terms_text': 'De algemene voorwaarden worden binnenkort toegevoegd. Neem contact op: office@systemsstudio.com',
             'legal.license_text': 'De licentieovereenkomst wordt binnenkort toegevoegd. Neem contact op: office@systemsstudio.com',
             'legal.privacy_text': 'Het privacybeleid wordt binnenkort toegevoegd. Neem contact op: office@systemsstudio.com',
         }
