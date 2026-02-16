@@ -1353,45 +1353,107 @@ p {
 
   .hero__h2 {
     font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .hero__lead {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.6;
+  }
+
+  .hero__subline {
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.45);
   }
 
   .hero__actions {
     flex-direction: column;
+    gap: var(--space-sm);
   }
 
   .hero__actions .btn {
     width: 100%;
     text-align: center;
+    padding: 18px 24px;
+    font-size: 0.82rem;
   }
 
   /* ---- Sections (general) ---- */
   h2 {
     font-size: 1.5rem;
+    line-height: 1.25;
   }
 
   section {
-    padding: 80px 0;
+    padding: 72px 0;
+  }
+
+  /* ---- Better text contrast on mobile ---- */
+  .about__text,
+  .partnership__text,
+  .pack-card__desc,
+  .evidence__closing {
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.65;
+  }
+
+  .core-truth {
+    font-size: 1.25rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.85);
   }
 
   /* ---- Grids → single column ---- */
   .about__tiles {
     grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .evidence__grid {
     grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .b2b__effects {
     grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .packs__grid {
     grid-template-columns: 1fr;
+    gap: var(--space-lg);
   }
 
   .spokoju__products {
     grid-template-columns: 1fr;
+  }
+
+  /* ---- Pack cards — better mobile layout ---- */
+  .pack-card {
+    padding: var(--space-lg);
+  }
+
+  .pack-card__title {
+    font-size: 1.15rem;
+  }
+
+  .pack-card__actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
+
+  .pack-card__actions .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+  }
+
+  .pack-card__preview {
+    text-align: center;
+    padding: 12px 0;
   }
 
   /* ---- Spokoju features (horizontal list → wrap) ---- */
@@ -1405,6 +1467,11 @@ p {
     flex-wrap: wrap;
   }
 
+  /* ---- B2B effects cards ---- */
+  .b2b__effect p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
   /* ---- Mini case ---- */
   .mini-case {
     padding: var(--space-lg);
@@ -1413,17 +1480,45 @@ p {
   /* ---- Addons ---- */
   .addon-item {
     padding: var(--space-md) 0;
+    font-size: 0.95rem;
   }
 
-  /* ---- Footer ---- */
+  /* ---- Footer — better touch targets ---- */
+  .footer {
+    padding: var(--space-xl) 0 var(--space-lg);
+  }
+
   .footer__inner {
     flex-direction: column;
     gap: var(--space-xl);
   }
 
+  .footer__info p {
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
   .footer__links {
     flex-direction: column;
-    gap: var(--space-md);
+    gap: 0;
+  }
+
+  .footer__links a {
+    display: block;
+    padding: 14px 0;
+    font-size: 0.82rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .footer__links a:last-child {
+    border-bottom: none;
+  }
+
+  .footer__copy {
+    font-size: 0.75rem;
+    padding-top: var(--space-lg);
+    color: rgba(255, 255, 255, 0.35);
   }
 }
 
@@ -1438,36 +1533,17 @@ p {
     letter-spacing: -0.02em;
   }
 
-  .hero__lead {
-    font-size: 0.92rem;
-  }
-
-  .hero__subline {
-    font-size: 0.7rem;
-  }
-
   h2 {
     font-size: 1.3rem;
   }
 
-  .pack-card__actions {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-sm);
-  }
-
-  .pack-card__actions .btn {
-    width: 100%;
-    text-align: center;
+  .hero__subline {
+    font-size: 0.68rem;
   }
 
   .core-truth {
     font-size: 1.15rem;
     padding: var(--space-xl) var(--space-lg);
-  }
-
-  .evidence__closing {
-    font-size: 0.88rem;
   }
 
   .section-label {
